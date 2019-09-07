@@ -10,3 +10,9 @@ El fenomeno de la migracion es considerado una bendicion y maldicion a la vista 
 *https://biblioguias.cepal.org/c.php?g=159534&p=1044528*
 
 *https://www.extranjeria.gob.cl/estadisticas-migratorias/*
+
+*https://migrationdataportal.org/data?i=stock_abs_&t=2017&cm49=152*
+
+*https://www.un.org/en/development/desa/population/migration/publications/migrationreport/docs/MigrationReport2017_Highlights.pdf*
+
+
