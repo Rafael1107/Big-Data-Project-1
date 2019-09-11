@@ -18,4 +18,6 @@ Específicamente se analizaran variables como años de residencia, ingresos, lug
 
 **Alumnos**
 
-Matias Moya & Rafael Godoy
+Matias Moya
+
+Rafael Godoy
