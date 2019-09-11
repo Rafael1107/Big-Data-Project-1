@@ -16,3 +16,6 @@ Específicamente se analizaran variables como años de residencia, ingresos, lug
 
 *https://www.un.org/en/development/desa/population/migration/publications/migrationreport/docs/MigrationReport2017_Highlights.pdf*
 
+**Alumnos**
+
+Matias Moya & Rafael Godoy
