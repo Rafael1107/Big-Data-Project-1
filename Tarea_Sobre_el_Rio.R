@@ -16,11 +16,13 @@ resultado2<-matrix(as.logical(resultado),nrow=7,ncol=3)
 rownames(resultado2)<-c("primera ida","primera vuelta","segunda ida","segunda vuelta","tercera ida","tercera vuelta","ultima ida")
 colnames(resultado2)<-c("obeja","lobo","pasto")
 #Condicional
-if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else {print("Si inicia con el pasto, el lobo se comera a la obeja")}
+if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else if(primero_en_tomar==pasto){print("Si inicia con el pasto, el lobo se comera a la obeja")} else {"Debe introducir Primero_en_tomar == lobo|pasto|obeja"}
 #Iniciando con el lobo
 primero_en_tomar<-lobo
-if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else {print("Si inicia con el pasto, el lobo se comera a la obeja")}
+if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else if(primero_en_tomar==pasto){print("Si inicia con el pasto, el lobo se comera a la obeja")} else {"Debe introducir Primero_en_tomar == lobo|pasto|obeja"}
 #Iniciando con el pasto
 primero_en_tomar<-pasto
-if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else {print("Si inicia con el pasto, el lobo se comera a la obeja")}
-#h
+if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else if(primero_en_tomar==pasto){print("Si inicia con el pasto, el lobo se comera a la obeja")} else {"Debe introducir Primero_en_tomar == lobo|pasto|obeja"}
+#Caso de ErroR
+primero_en_tomar<-56
+if(primero_en_tomar==obeja){print(resultado2)} else if (primero_en_tomar==lobo){print("si inicia con el, la obeja se comera el pasto")} else if(primero_en_tomar==pasto){print("Si inicia con el pasto, el lobo se comera a la obeja")} else {"Debe introducir Primero_en_tomar == lobo|pasto|obeja"}
